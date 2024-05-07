@@ -18,8 +18,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/pemistahl/lingua-go"
 	"runtime"
+
+	"github.com/burakson/lingua-go"
 )
 
 func main() {

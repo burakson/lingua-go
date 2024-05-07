@@ -19,13 +19,14 @@ package lingua
 import (
 	"archive/zip"
 	"fmt"
-	"github.com/pemistahl/lingua-go/serialization"
-	"github.com/stretchr/testify/assert"
-	"google.golang.org/protobuf/proto"
 	"io"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/burakson/lingua-go/serialization"
+	"github.com/stretchr/testify/assert"
+	"google.golang.org/protobuf/proto"
 )
 
 const content = `These sentences are intended for testing purposes.
